@@ -18,13 +18,13 @@
   
   会提示输入对面git平台账号密码    
 
-5.添加repo，会将remote的项目clone 到本地cocospod目录中     
+5.添加repo，会将remote的项目clone 到本地cocoapods目录中     
   pod repo add Spec-Repo https://github.com/SunMichael/Spec-Repo.git    
 
 6.上传podspec到 Spec-Repo仓库下    
   pod repo push Spec-Repo Spec-Repo.podspec    
   
-7.上传podspec到cocospod官方     
+7.上传podspec到cocoapods官方     
 如果没有注册过账号，需要使用邮箱注册     
   pod trunk register bigsun1992@sina.cn    
 
