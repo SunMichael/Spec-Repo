@@ -5,7 +5,7 @@
 1.必须添加LISENCE    
 
 2.在根目录下创建podspec文件    
-  pod spec create NAME
+  pod spec create 库名字
   
   注意文件中 s.source_files 绝对路径  以及 s.frameworks 等的编写不能错     
   
