@@ -11,6 +11,10 @@
   
 3.验证    
   pod lib lint --verbose    
+  如果出现ERROR | [iOS] unknown: Encountered an unknown error (Malformed version number string ) during validation.
+   https://github.com/CocoaPods/CocoaPods/issues/8240 [closed] [15 comments]
+   03 Nov 2018
+ 检查下gem的版本 使用2.7.6  gem update --system 2.7.6
 
 4.创建tag  
   git tag -m "message" "0.0.1"    
