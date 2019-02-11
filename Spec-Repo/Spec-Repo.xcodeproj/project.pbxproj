@@ -15,6 +15,7 @@
 		045131072211532600850E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045131062211532600850E8C /* main.m */; };
 		045131112211532700850E8C /* Spec_RepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045131102211532700850E8C /* Spec_RepoTests.m */; };
 		0451311C2211532700850E8C /* Spec_RepoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0451311B2211532700850E8C /* Spec_RepoUITests.m */; };
+		0451312F22115EE000850E8C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0451312E22115EE000850E8C /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		045131172211532700850E8C /* Spec-RepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spec-RepoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0451311B2211532700850E8C /* Spec_RepoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spec_RepoUITests.m; sourceTree = "<group>"; };
 		0451311D2211532700850E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0451312D22115EE000850E8C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0451312E22115EE000850E8C /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		045130F62211532300850E8C /* Spec-Repo */ = {
 			isa = PBXGroup;
 			children = (
+				0451312C22115EC700850E8C /* Classes */,
 				045130F72211532300850E8C /* AppDelegate.h */,
 				045130F82211532300850E8C /* AppDelegate.m */,
 				045130FA2211532300850E8C /* ViewController.h */,
@@ -130,6 +134,15 @@
 				0451311D2211532700850E8C /* Info.plist */,
 			);
 			path = "Spec-RepoUITests";
+			sourceTree = "<group>";
+		};
+		0451312C22115EC700850E8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0451312D22115EE000850E8C /* User.h */,
+				0451312E22115EE000850E8C /* User.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0451312F22115EE000850E8C /* User.m in Sources */,
 				045130FC2211532300850E8C /* ViewController.m in Sources */,
 				045131072211532600850E8C /* main.m in Sources */,
 				045130F92211532300850E8C /* AppDelegate.m in Sources */,
