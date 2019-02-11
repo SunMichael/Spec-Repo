@@ -21,7 +21,7 @@
 5.添加repo，会将remote的项目clone 到本地cocospod目录中     
   pod repo add Spec-Repo https://github.com/SunMichael/Spec-Repo.git    
 
-6.上传repo    
+6.上传podspec到 Spec-Repo仓库下    
   pod repo push Spec-Repo Spec-Repo.podspec    
   
 7.上传podspec到cocospod官方     
